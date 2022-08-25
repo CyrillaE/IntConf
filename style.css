@@ -7,8 +7,8 @@
 #MainTitle{
     color: white;
     font-family: Electrolize;
-    font-size: 150px;
-    margin-left: 100px;
+    font-size: 125px;
+    margin-left: 12%;
     z-index: 2;
 }
 
@@ -17,23 +17,42 @@
     color: white;
     font-family: Electrolize;
     white-space: nowrap;
-    font-size: 70px;
-    margin-left: 100px;
+    font-size: 40px;
+    margin-left: 12%;
     rotate: 180deg;
 }
 
 #dateConf{
-    color: white;
+    color: rgb(212, 214, 248);
     font-family: Electrolize;
+    position: absolute;
     white-space: nowrap;
-    font-size: 70px;
+    font-size: 40px;
     font-weight: bold;
-    margin-left: 100px;
+    margin-left: 18%;
+    margin-top: 0px;
+}
+
+#cityName{
+    color: rgb(212, 214, 248);
+    font-family: Electrolize;
+    position: absolute;
+    white-space: nowrap;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 18%;
+    margin-top: 5%;
+}
+
+#divMain{
+    height: 820px;
+    background-attachment: fixed;
+    margin-top: 0px;
 }
 
 #imageCar{
     width: 100%;
-    height: 700px;
+    height: 100%;
     position: fixed;
     z-index: -1;
     opacity: 0.6;
@@ -47,12 +66,7 @@
     position: absolute;
 }
 
-#divMain{
-    height: 1300px;
-    background-attachment: fixed;
-    margin-top: 0px;
 
-}
 
 #MainText{
 background-color: white;
@@ -67,11 +81,26 @@ margin-bottom: 40px;
 #footer{
     background-color: white;
     width: 100%;
-    height: 100%;
     font-family: Electrolize;
     padding-top: 30px;
     margin-bottom: 0px;
     font-size: 40px;
+    display: block;
+    bottom: 0px;
+}
+
+.footerText{
+    font-size: 25px;
+    margin-left: 5%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#logoUni{
+    width: 200px;
+    height: 90px;
+    display: block;
+    text-align: right;
 }
 
 /* -----------------------------------------------------Programme*/
@@ -149,14 +178,15 @@ margin-bottom: 40px;
     margin-bottom: 40px;
     padding-top: 30px;
     display: grid;
-    grid-template-columns: 30% 1fr 1fr 1fr; 
-    grid-template-rows: repeat(9);
+    grid-template-columns: 33% 33% 33%; 
+    grid-template-rows: repeat(18);
+    font-size: 25px;
+
 }
 
-#ComitteeText{
-    text-align: center;
+#ComitteeText, #localOrg{
     font-family: Electrolize;
-    font-size: 64px;
+    font-size: 50px;
     color: white;
     padding-top: 10px;
     grid-column-start: 1;
@@ -164,10 +194,43 @@ margin-bottom: 40px;
     grid-row-start: 1;
     position: absolute;
     padding-left: 40px;
- 
+    text-align: end;
 }
 
-#invite1, #invite4, #invite7, #invite10, #invite13, #invite16 {
+#invite1, #invite3, #invite5, #invite7, #invite9, #invite11, #invite13, #invite15, #invite17 {
     grid-column-start: 2;
     grid-column-end: 3; 
+}
+
+.committeeName:link, .committeeName:visited, .orgName:link, .orgName:visited {
+    text-decoration: none;
+    color: rgb(223, 249, 249);
+}
+
+.committeeName:hover, .orgName:hover{
+    color: rgb(172, 178, 234);
+    }
+
+.photoInvite{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;   
+
+}
+
+ /* ----------------------------------------------------Local Organisers*/
+
+#localHost{
+    background-color:#0A103A;
+    font-family: Electrolize;
+    color: white;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    margin-bottom: 40px;
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%; 
+    grid-template-rows: 1fr;
+    font-size: 25px;
 }
