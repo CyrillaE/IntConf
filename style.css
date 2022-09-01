@@ -6,6 +6,22 @@
 #body{
     background-color: #0A103A;
     height: 100%;
+    width: 100%;
+}
+/* -------------------First Frame ----------------------*/
+
+#divMain{
+    height: 820px;
+    background-attachment: fixed;
+    margin-top: 0px;
+}
+
+#imageBack{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    opacity: 0.6;
 }
 
 #MainTitle{
@@ -23,6 +39,7 @@
     margin-left: 12%;
     rotate: 180deg;
 }
+
 
 #dateConf{
     color: rgb(212, 214, 248);
@@ -44,7 +61,6 @@
     margin-top: 5%;
 }
 
-
 #cityName{
     color: rgb(212, 214, 248);
     position: absolute;
@@ -56,36 +72,103 @@
 
 }
 
-#divMain{
-    height: 820px;
-    background-attachment: fixed;
-    margin-top: 0px;
+@media screen and (max-width: 768px) {
+    #divMain{
+        height: 700px;
 }
+	#MainTitle{
+    font-size: 75px;
+    margin-left: 8%;
+}
+    #IntConf{
+    margin-left: 8%;
+}
+    #dateConf{
+    font-size: 55px;
+    margin-left: 15%;
 
-#imageCar{
+}
+    #institute{
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 15%;
+    margin-top: 10%;
+    font-size: 30px;
+}
+#cityName{
+    margin-left: 15%;
+    margin-top: 20%;
+}
+}
+@media screen and (max-width: 450px) {
+    #divMain{
+    height: 600px;
     width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: -1;
-    opacity: 0.6;
+}
+	#MainTitle{
+    font-size: 50px;
+    margin-left: 8%;
+}
+    #IntConf{
+    margin-left: 8%;
+    font-size: 30px;
+}
+    #dateConf{
+    font-size: 25px;
+    margin-left: 20%;
+
+}
+    #institute{
+    font-size: 25px;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+    #cityName{
+    margin-left: 20%;
+    margin-top: 30%;
+    font-size: 20px;
+}
 }
 
+/* Image not used
 #Car{
     height: 500px;
     width: 740px;
     margin-left: 350px;
     margin-top: 200px;
     position: absolute;
-}
+}*/
+
+/* ----------------------------------------------------- Header ---------------------------------------------------------*/
 
 .MainText{
-background-color: white;
-width: 100%;
-height: 300px;
-opacity: 0.9;
-margin-bottom: 40px;
+    background-color: white;
+    width: 100%;
+    height: 300px;
+    opacity: 0.9;
+    margin-bottom: 40px;
+}
+#WelcomeText1{
+    text-align: center;
+    font-size: 64px;
+    color: #0A103A;
+   
 }
 
+
+@media screen and (max-width: 450px) {
+    .MainText{
+        width: 100%;
+        height: 150px;
+        opacity: 0.9;
+        margin-bottom: 10px;
+}
+    #WelcomeText1{
+        text-align: center;
+        font-size: 30px;
+       
+}
+}
 /* -----------------------------------------------------Navbar---------------------------------------------------------*/
 
 nav{
@@ -327,6 +410,19 @@ ul a {
 #paperSubmission{
     margin-bottom: 30px;
 }
+
+/* ----------------------------------------------------   Venue and Accomodation ----------------------------------------*/
+
+#Logistics{
+    background-color: #ffffff;
+    height: 200px;
+}
+/*---------------------------------------------------------- Blog --------------------------------------------*/
+#blog{
+    height: 200px;
+    background-color: #ffffff;
+}
+
 /*---------------------------------------------------------- Footer --------------------------------------------*/
 
 #footer{
