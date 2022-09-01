@@ -102,29 +102,28 @@
 }
 @media screen and (max-width: 450px) {
     #divMain{
-    height: 600px;
-    width: 100%;
+    height: 580px;
 }
 	#MainTitle{
-    font-size: 50px;
-    margin-left: 8%;
+    font-size: 38px;
+    margin-left: 3%;
 }
     #IntConf{
-    margin-left: 8%;
-    font-size: 30px;
+    margin-left: 3%;
+    font-size: 27px;
 }
     #dateConf{
-    font-size: 25px;
-    margin-left: 20%;
+    font-size: 20px;
+    margin-left: 14%;
 
 }
     #institute{
-    font-size: 25px;
-    margin-left: 20%;
+    font-size: 22px;
+    margin-left: 14%;
     margin-top: 10%;
 }
     #cityName{
-    margin-left: 20%;
+    margin-left: 14%;
     margin-top: 30%;
     font-size: 20px;
 }
@@ -207,11 +206,29 @@ ul a {
     margin-bottom: 5%;
 }
 
+#programmeTitle{
+    font-size: 50px;
+    text-align: center;
+
+}
+
 .textProgramme{
     text-align: center;
     font-size: 25px;
 }
 
+
+@media screen and (max-width: 450px) {
+    #programmeTitle{
+        font-size: 30px;
+    }
+    #programmeShape{
+        width: 55%;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 5%;
+    }
+}
 /* -----------------------------------------------------Important Dates---------------------------------------------------*/
 
 #importantDate{
@@ -415,13 +432,42 @@ ul a {
 
 #Logistics{
     background-color: #ffffff;
-    height: 200px;
+    height: 120px;
+    margin-bottom: 30px;
+}
+
+.Logistic{
+    text-align: center;
+    margin-top: 20px;
 }
 /*---------------------------------------------------------- Blog --------------------------------------------*/
 #blog{
-    height: 200px;
     background-color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 35px;
 }
+
+.blogText{
+    margin-left: 10%;
+}
+
+.blogText a{
+    text-decoration: none;
+    color: #060000;
+}
+
+.blogText a:hover{
+    text-decoration: none;
+    color: rgb(172, 178, 234);
+}
+/* Not sure for image
+#imageTRI{
+    width: 500px;
+    height: 300px;
+    opacity: 0.6;
+    float: right;
+}*/
 
 /*---------------------------------------------------------- Footer --------------------------------------------*/
 
