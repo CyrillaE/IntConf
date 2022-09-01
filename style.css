@@ -430,7 +430,7 @@ ul a {
     font-size: 25px;
 }
 
-#ComitteeText, #localOrg{
+#ComitteeText {
     font-size: 50px;
     color: white;
     padding-top: 10px;
@@ -465,7 +465,7 @@ ul a {
 
 @media screen and (max-width: 450px) {
     #ComitteeText{
-        font-size: 30px;
+        font-size: 25px;
         color: white;
         padding-top: 10px;
         grid-column-start: 1;
@@ -473,7 +473,7 @@ ul a {
         grid-row-start: 1;
         position: relative;
         padding-left: 40px;
-        text-align: end;
+        text-align: start;
         grid-column-start: 1;
         grid-column-end: 3;
     }
@@ -487,7 +487,7 @@ ul a {
         display: grid;
         grid-template-columns: 60% 40%; 
         grid-template-rows: repeat(19);
-        font-size: 12px;
+        font-size: 15px;
     }
     #invite1, #invite3, #invite5, #invite7, #invite9, #invite11, #invite13, #invite15, #invite17 {
         grid-column-start: 1;
@@ -517,18 +517,35 @@ ul a {
     grid-template-rows: 100%;
     font-size: 25px;
 }
+
+#localOrg{
+    font-size: 50px;
+    color: white;
+    padding-top: 10px;
+    grid-column-start: 1;
+    grid-column-end: 2; 
+    grid-row-start: 1;
+    position: absolute;
+    padding-left: 40px;
+    text-align: end;
+
+}
 @media screen and (max-width: 450px) {
     #localOrg{
-    font-size: 20px;
-    grid-column-start: 1;
-     grid-column-end: 2; 
+    font-size: 25px;
+    position: relative;
+    grid-column-start: 2;
+    grid-column-end: 3; 
+    padding-left: 5px;
+    padding-bottom: 30px;
+    text-align: start;
     }
     #localHost{
-    height: 400px;
+    height: 300px;
     font-size: 20px;
     grid-template-columns: 1fr 1fr; 
     grid-template-rows: 15% 85%;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     padding-top: 0px;
     padding-bottom: 15px;
     }
@@ -537,9 +554,15 @@ ul a {
     grid-column-end: 2;
     font-size: 15px;
     margin-top: 0px;
+    height: 70px;
+    padding-top: 35px;
+    padding-left: 5px;
     }
     #host2{
     font-size: 15px;
+    padding-bottom: 0px;
+    padding-top: 25px;
+
     }
 }
 /* --------------------------------------------------------- Registration ----------------------------------------------*/
@@ -620,7 +643,7 @@ ul a {
 
 @media screen and (max-width: 450px) {
     #blog{
-        padding: 10px;
+        padding: 5px;
     }
     
 }
