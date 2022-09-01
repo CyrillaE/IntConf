@@ -201,37 +201,62 @@ ul a {
 }*/
 
 nav{
-    height: 10vh;
-    background-color: rgb(29, 8, 52) ;
+	position: relative;
+	width: 100%;
+	height: 100px;
+	background-color: white;
 }
- .nav-links{
-    display: flex;
-    list-style: none;
-    width: 50%;
-    height: 100%;
-    justify-content: space-around;
-    align-items: center;
-    margin-left: auto;
- }
 
- .nav-links li a{
-    color: white;
-    text-decoration: none;
-    
- }
+.nav-links{
+	display: flex;
+	list-style: none;
+	width: 50%;
+	height: 100%;
+	justify-content: space-around;
+	align-items: center;
+	margin-left: auto;
+}
 
- @media screen and (max-width: 768px){
+.nav-links li a{
+	color: #788585 ;
+	display: inline-block;
+	font-size: 25px;
+	margin-top: 8px;
+	font-weight: bold;
+	text-decoration: underline rgba(0, 0, 0, 0) 4px;
+	transition: text-decoration-color 1000ms, text-underline-offset 1000ms;
+	text-underline-offset: 0.2em;
+	background-position: right bottom;
 
-    .line{
-        width: 30px;
-        height: 3px;
-        background-color: white;
-        margin: 5px;
-    }
 
-    nav{
-        position: relative;
-    }
+}
+.nav-links li a:hover {
+	text-decoration-color: rgb(223, 212, 178);
+	background-position: left bottom;
+}
+
+@media screen and (max-width: 768px){
+	.nav-links li a{
+		margin-right: 15px;
+		font-size: 17px;
+	}
+
+
+}
+@media screen and (max-width: 450px) {
+
+	.line{
+		width: 30px;
+		height: 3px;
+		background: rgb(223, 212, 178);
+		margin: 5px;
+	}
+
+	nav{
+		position: absolute;
+		width: 100%;
+		background-color: white;
+	}
 
 	.hamburger{
 		position: absolute;
@@ -241,23 +266,50 @@ nav{
 		transform: translate(-5%,-50%);
 		z-index: 4;
 	}
+	.nav-links{
+		position: fixed;
+		background: rgba(116, 77, 77, 0);
+		height: 100vh;
+		width: 100%;
+		flex-direction: column;
+		clip-path: circle(100px at 100% -1%);
+		-webkit-clip-path:circle(100px at 90% -10%);
+		transition: all 1s ease-out;
+		pointer-events: none;
+		z-index: 3;
 
-    .nav-links{
-    position: fixed;
-    background-color: rgb(17, 7, 31);
-    z-index: 5;
-    height: 100vh;
-    width: 100%;
-    flex-direction: column;
-    clip-path: circle(100px at 90% -10%);
-    -webkit-clip-path:circle(100px at 90% -10%);
-    transition: all 1s ease-out;
+	}
+
+	.nav-links.open{
+		clip-path: circle(1000px at 100% -1%);
+		-webkit-clip-path:circle(1000px at 90% -10%);
+		pointer-events: all;
+		background-color: #788585;
+	}
+	.nav-links li{
+		opacity: 0px;
+	}
+	.nav-links li a {
+		font-size: 25px;
+		color: white;
+	}
+	.nav-links li:nth-child(1){
+		transition: all 0.5s ease 0.2;
+	}
+	.nav-links li:nth-child(2){
+		transition: all 0.5s ease 0.4;
+	}
+	.nav-links li:nth-child(3){
+		transition: all 0.5s ease 0.6;
+	}
+	li.fade{
+		opacity: 1;
+	}
 }
- }
-    .nav-links.open{
-    clip-path: circle(1000px at 90% -10%);
-    -webkit-clip-path:circle(1000px at 90% -10%);
- }
+
+#souligneAbout, #soulignePortfolio, #souligneResume{
+    text-decoration: underline rgb(223, 212, 178) 4px;
+}
 
 /* -----------------------------------------------------Programme---------------------------------------------------------*/
 
