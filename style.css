@@ -504,6 +504,8 @@ ul a {
 @media screen and (max-width: 450px) {
     #localOrg{
     font-size: 20px;
+    grid-column-start: 1;
+     grid-column-end: 2; 
     }
     #localHost{
     height: 400px;
