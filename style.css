@@ -484,6 +484,9 @@ ul a {
         grid-column-start: 1;
         grid-column-end: 2; 
     }
+    #invite1 p, #invite3 p, #invite5 p, #invite7 p, #invite9 p, #invite11 p, #invite13 p, #invite15 p, #invite17 p {
+        padding-left: 13px;
+    }
     .photoInvite{
         padding-left: 10px;   
     
