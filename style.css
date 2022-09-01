@@ -74,7 +74,7 @@
 
 @media screen and (max-width: 768px) {
     #divMain{
-        height: 700px;
+        height: 600px;
 }
 	#MainTitle{
     font-size: 100px;
@@ -202,7 +202,7 @@ ul a {
 
 nav{
     height: 10vh;
-    background-color: pink ;
+    background-color: rgb(29, 8, 52) ;
 }
  .nav-links{
     display: flex;
@@ -217,6 +217,7 @@ nav{
  .nav-links li a{
     color: white;
     text-decoration: none;
+    
  }
 
  @media screen and (max-width: 768px){
@@ -232,16 +233,19 @@ nav{
         position: relative;
     }
 
-    .hamburger{
-        position: absolute;
-        cursor: pointer;
-        right: 5%;
-        top: 50%;
-        transform: translate(-5%, -50%);
-    }
-.nav-links{
+	.hamburger{
+		position: absolute;
+		cursor: pointer;
+		right: 5%;
+		top: 50%;
+		transform: translate(-5%,-50%);
+		z-index: 4;
+	}
+
+    .nav-links{
     position: fixed;
-    background-color: pink;
+    background-color: rgb(17, 7, 31);
+    z-index: 5;
     height: 100vh;
     width: 100%;
     flex-direction: column;
@@ -250,7 +254,7 @@ nav{
     transition: all 1s ease-out;
 }
  }
- .nav-links.open{
+    .nav-links.open{
     clip-path: circle(1000px at 90% -10%);
     -webkit-clip-path:circle(1000px at 90% -10%);
  }
