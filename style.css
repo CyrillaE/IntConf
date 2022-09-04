@@ -503,7 +503,7 @@ nav{
     text-align: end;
 }
 
-#invite1, #invite3, #invite5, #invite7, #invite9, #invite11, #invite13, #invite15, #invite17 {
+#invite1, #invite3, #invite5, #invite7, #invite9, #invite11, #invite13, #invite15, #invite17, #invite19 {
     grid-column-start: 2;
     grid-column-end: 3; 
 }
