@@ -682,6 +682,8 @@ nav{
     padding-top: 15px;
     padding-bottom: 15px;
     margin-bottom: 35px;
+    height: 400px;
+    display: block;
 }
 #titleBlog{
     font-weight: bold;
@@ -700,6 +702,10 @@ nav{
     text-decoration: none;
     color: rgb(172, 178, 234);
 }
+#logoUni{
+    margin: auto;
+    text-align: center;
+}
 
 @media screen and (max-width: 450px) {
     #blog{
@@ -708,13 +714,6 @@ nav{
     
 }
 
-/* Not sure for image
-#imageTRI{
-    width: 500px;
-    height: 300px;
-    opacity: 0.6;
-    float: right;
-}*/
 
 /*---------------------------------------------------------- Footer --------------------------------------------*/
 
