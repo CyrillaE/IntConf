@@ -173,7 +173,7 @@
 
 /* -----------------------------------------------------Navbar---------------------------------------------------------*/
 
-nav{
+ ##navGrand{
     margin-bottom: 55px;
     text-align: center;
     background-color: #0A103A;
@@ -198,14 +198,16 @@ ul a {
   ul a:hover {
     text-decoration: none;
     color: rgb(172, 178, 234);
-}*/
+}
 
-/* Essaie pour nav bar
-nav{
-    height: 10vh;
+/* Essaie pour nav bar*/
+
+
+#navPetit{
+    height: 40px;
     background-color: rgb(29, 8, 52) ;
 }
- .nav-links{
+ . #navPetit-links{
     display: flex;
     list-style: none;
     width: 50%;
@@ -221,6 +223,10 @@ nav{
     
  }
 
+ #navPetit{
+    display: none;
+ }
+
  @media screen and (max-width: 768px){
 
     .line{
@@ -230,7 +236,8 @@ nav{
         margin: 5px;
     }
 
-    nav{
+    #navPetit{
+        display: contents;
         position: relative;
     }
 
@@ -243,7 +250,7 @@ nav{
 		z-index: 4;
 	}
 
-    .nav-links{
+    #navPetit-links{
     position: fixed;
     background-color: rgb(17, 7, 31);
     z-index: 5;
@@ -254,12 +261,20 @@ nav{
     -webkit-clip-path:circle(100px at 90% -10%);
     transition: all 1s ease-out;
 }
- }
-    .nav-links.open{
+
+#navPetit-links.open{
     clip-path: circle(1000px at 90% -10%);
     -webkit-clip-path:circle(1000px at 90% -10%);
  }
- */
+
+ #navGrand{
+    display: none;
+ }
+ }
+
+
+
+ 
 
 /* -----------------------------------------------------Programme---------------------------------------------------------*/
 
