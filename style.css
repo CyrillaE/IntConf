@@ -104,7 +104,7 @@
 }
 @media screen and (max-width: 450px) {
     #divMain{
-    height: 580px;
+    height: 480px;
 }
 	#MainTitle{
     font-size: 38px;
@@ -131,14 +131,6 @@
 }
 }
 
-/* Image not used
-#Car{
-    height: 500px;
-    width: 740px;
-    margin-left: 350px;
-    margin-top: 200px;
-    position: absolute;
-}*/
 
 /* ----------------------------------------------------- Header ---------------------------------------------------------*/
 
@@ -153,6 +145,8 @@
     text-align: center;
     font-size: 64px;
     color: #0A103A;
+    z-index: 1;
+
    
 }
 
@@ -163,54 +157,32 @@
         height: 150px;
         opacity: 0.9;
         margin-bottom: 10px;
+        z-index: 1;
+
 }
     #WelcomeText1{
         text-align: center;
         font-size: 30px;
+        z-index: 0;
+
        
 }
 }
 
 /* -----------------------------------------------------Navbar---------------------------------------------------------*/
 
- ##navGrand{
-    margin-bottom: 55px;
+nav{
+    margin-bottom: 50px;
     text-align: center;
     background-color: #0A103A;
     padding: 5px;
-    padding-top: 15px;
-
-}
-li{
-    display: inline;
-    padding: 10px;
-    font-size: 21px;
-    margin-bottom: 40px;
-
-}
-ul a {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    color: #ffffff;
-  }
-
-  ul a:hover {
-    text-decoration: none;
-    color: rgb(172, 178, 234);
-}
-
-/* Essaie pour nav bar*/
-
-
-#navPetit{
-    height: 40px;
+    padding-top: 10px;
+    height: 10vh;
     background-color: rgb(29, 8, 52) ;
 }
- . #navPetit-links{
+ .nav-links{
     display: flex;
     list-style: none;
-    width: 50%;
     height: 100%;
     justify-content: space-around;
     align-items: center;
@@ -220,12 +192,21 @@ ul a {
  .nav-links li a{
     color: white;
     text-decoration: none;
-    
+    display: inline;
+    padding: 10px;
+    font-size: 21px;
+    margin-bottom: 40px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;   
  }
 
- #navPetit{
-    display: none;
- }
+ .nav-links li a:hover {
+    text-decoration: none;
+    color: rgb(172, 178, 234);
+}
+
 
  @media screen and (max-width: 768px){
 
@@ -236,23 +217,22 @@ ul a {
         margin: 5px;
     }
 
-    #navPetit{
-        display: contents;
+    nav{
         position: relative;
     }
 
 	.hamburger{
 		position: absolute;
+        right: 5%;
+		top: 30%;
 		cursor: pointer;
-		right: 5%;
-		top: 50%;
 		transform: translate(-5%,-50%);
 		z-index: 4;
 	}
 
-    #navPetit-links{
-    position: fixed;
-    background-color: rgb(17, 7, 31);
+    .nav-links{
+    /*position: fixed;*/
+    background-color:  #0A103A;
     z-index: 5;
     height: 100vh;
     width: 100%;
@@ -261,19 +241,11 @@ ul a {
     -webkit-clip-path:circle(100px at 90% -10%);
     transition: all 1s ease-out;
 }
-
-#navPetit-links.open{
+ }
+    .nav-links.open{
     clip-path: circle(1000px at 90% -10%);
     -webkit-clip-path:circle(1000px at 90% -10%);
  }
-
- #navGrand{
-    display: none;
- }
- }
-
-
-
  
 
 /* -----------------------------------------------------Programme---------------------------------------------------------*/
@@ -697,7 +669,7 @@ ul a {
     padding-top: 15px;
     padding-bottom: 15px;
     margin-bottom: 35px;
-    height: 300px;
+    height: 400px;
     display: block;
 }
 #titleBlog{
@@ -726,11 +698,9 @@ ul a {
     #blog{
         padding: 5px;
         height: 500px;
-
     }
     
 }
-
 
 /*---------------------------------------------------------- Footer --------------------------------------------*/
 
@@ -746,7 +716,7 @@ ul a {
 }
 
 #logoUni{
-    width: 250px;
+    width: 222px;
     height: 85px;
     float: right;
     clear: right;
