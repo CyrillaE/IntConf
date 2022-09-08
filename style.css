@@ -140,14 +140,14 @@
     height: 300px;
     opacity: 0.9;
     margin-bottom: 40px;
+    z-index: 2;
+
 }
 #WelcomeText1{
     text-align: center;
     font-size: 64px;
     color: #0A103A;
     z-index: 1;
-
-   
 }
 
 
@@ -178,7 +178,8 @@ nav{
     padding: 5px;
     padding-top: 10px;
     height: 10vh;
-    background-color: rgb(29, 8, 52) ;
+    z-index: 4;
+
 }
  .nav-links{
     display: flex;
@@ -193,12 +194,10 @@ nav{
     color: white;
     text-decoration: none;
     display: inline;
-    padding: 10px;
+    padding: 3px;
     font-size: 21px;
-    margin-bottom: 40px;
+    margin-bottom: 3px;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     color: #ffffff;   
  }
 
@@ -219,6 +218,8 @@ nav{
 
     nav{
         position: relative;
+        margin-bottom: 5px;
+        height: 60px;
     }
 
 	.hamburger{
@@ -669,7 +670,7 @@ nav{
     padding-top: 15px;
     padding-bottom: 15px;
     margin-bottom: 35px;
-    height: 400px;
+    height: 320px;
     display: block;
 }
 #titleBlog{
@@ -716,8 +717,8 @@ nav{
 }
 
 #logoUni{
-    width: 222px;
-    height: 85px;
+    width: 360px;
+    height: 145px;
     float: right;
     clear: right;
     position: relative;
