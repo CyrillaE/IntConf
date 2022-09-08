@@ -714,6 +714,7 @@ nav{
     display: grid;
     grid-template-columns: 70% 30%; 
     grid-template-rows: 100%;
+    height: 100%;
 }
 
 #logoUni{
@@ -731,8 +732,9 @@ nav{
     grid-template-columns: 100%; 
     grid-template-rows: 100%;
     }
-    #logoUni{
-      display: none;    
+    #imageLogoUni{
+     display: none;   
 }
+
     
 }
