@@ -682,7 +682,7 @@ nav{
     padding-top: 15px;
     padding-bottom: 15px;
     margin-bottom: 35px;
-    height: 400px;
+    height: 300px;
     display: block;
 }
 #titleBlog{
@@ -710,6 +710,8 @@ nav{
 @media screen and (max-width: 450px) {
     #blog{
         padding: 5px;
+        height: 500px;
+
     }
     
 }
@@ -729,7 +731,7 @@ nav{
 }
 
 #logoUni{
-    width: 222px;
+    width: 250px;
     height: 85px;
     float: right;
     clear: right;
