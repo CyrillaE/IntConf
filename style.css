@@ -652,7 +652,7 @@ nav{
 /* ----------------------------------------------------   Venue and Accomodation ----------------------------------------*/
 
 #Logistics{
-    background-color: #0a103ac6;
+    background-color: #0a103ac7;
     color: #ffffff;
     height: 100%;
     margin-bottom: 30px;
@@ -676,7 +676,7 @@ nav{
     position: absolute;
     bottom: 20px;
     right: 320px;
-    background-color: #0A103A;
+    background-color: #0a103ad0;
     color: white;
     padding-left: 20px;
     padding-right: 20px;
@@ -686,20 +686,30 @@ nav{
   #titleLogistic{
     font-size: 50px;
     color: white;
-    padding-top: 10px;
-    grid-column-start: 1;
-    grid-column-end: 2; 
-    grid-row-start: 1;
-    position: absolute;
+    padding-top: 20px;
     padding-left: 40px;
-    padding-bottom: 40px;
-    text-align: end;
+    padding-bottom: 20px;
+    text-align: start;
 }
 
 .Logistic{
     text-align: center;
     margin-top: 20px;
 }
+
+@media screen and (max-width: 450px){
+    .text-block {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        background-color: #0a103ad0;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 16px;
+      }
+}
+
 /*---------------------------------------------------------- Blog --------------------------------------------*/
 #blog{
     background-color: #ffffff;
