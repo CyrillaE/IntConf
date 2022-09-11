@@ -669,7 +669,6 @@ nav{
 
 .containerCampus{
     position: relative;
-    padding-top: 50px;
 }
 
 .text-block {
@@ -701,13 +700,19 @@ nav{
     .text-block {
         position: absolute;
         bottom: 20px;
-        right: 20px;
+        right: 30%;
         background-color: #0a103ad0;
         color: white;
-        padding-left: 20px;
-        padding-right: 20px;
+        margin: auto;
         font-size: 16px;
       }
+      #titleLogistic{
+        font-size: 25px;
+        padding: 30px;
+      }
+      .Logistic{
+        font-size: 25px;
+    }
 }
 
 /*---------------------------------------------------------- Blog --------------------------------------------*/
@@ -744,7 +749,7 @@ nav{
 @media screen and (max-width: 450px) {
     #blog{
         padding: 5px;
-        height: 500px;
+        height: 550px;
     }
     
 }
