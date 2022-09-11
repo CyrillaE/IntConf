@@ -577,7 +577,6 @@ nav{
     position: absolute;
     padding-left: 40px;
     text-align: end;
-
 }
 @media screen and (max-width: 450px) {
     #localOrg{
@@ -653,11 +652,48 @@ nav{
 /* ----------------------------------------------------   Venue and Accomodation ----------------------------------------*/
 
 #Logistics{
-    background-color: #0A103A;
+    background-color: #0a103ac6;
     color: #ffffff;
-    height: 120px;
+    height: 100%;
     margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#campusPhoto{
+    display: block;
+    margin:auto;
+    width: 70%;
+    height: 70%;
+}
+
+.containerCampus{
+    position: relative;
+    padding-top: 50px;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 320px;
+    background-color: #0A103A;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
     font-size: 25px;
+  }
+
+  #titleLogistic{
+    font-size: 50px;
+    color: white;
+    padding-top: 10px;
+    grid-column-start: 1;
+    grid-column-end: 2; 
+    grid-row-start: 1;
+    position: absolute;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    text-align: end;
 }
 
 .Logistic{
