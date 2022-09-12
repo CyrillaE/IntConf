@@ -832,6 +832,9 @@ nav{
       .text p{
         margin-bottom: 0px;
       }
+      .prev, .next {
+        font-size: 25px; 
+      }
 }
 
 /*---------------------------------------------------------- Blog --------------------------------------------*/
@@ -875,6 +878,40 @@ nav{
 
 /*---------------------------------------------------------- Funding --------------------------------------------*/
 
+#funding{
+    height: 250px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#titleFunding{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    padding-top: 40px;
+}
+
+#skillsGet{
+    display: block;
+    width: 300px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 450px) {
+    #titleFunding{
+        font-size: 32px;
+        padding-top: 10px;
+    }
+    #skillsGet{
+        display: block;
+        width: 300px;
+        height: auto;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    
+}
 
 
 /*---------------------------------------------------------- Footer --------------------------------------------*/
