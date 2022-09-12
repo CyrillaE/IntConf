@@ -896,6 +896,11 @@ nav{
     height: auto;
     margin: auto;
     margin-bottom: 40px;
+    transition: all .5s ease-in-out; 
+}
+
+#skillsGet:hover{
+    transform: scale(1.3);
 }
 
 @media screen and (max-width: 450px) {
