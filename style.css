@@ -876,6 +876,7 @@ nav{
         padding: 5px;
         grid-template-columns: 100%;  
         grid-template-rows:  75% 25%;
+        padding-bottom: 20px;
     }
     #imageForBlog{
         padding: 15px;
