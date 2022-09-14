@@ -875,9 +875,11 @@ nav{
     #blog{
         padding: 5px;
         grid-template-columns: 100%;  
-        grid-template-rows:  50%;
+        grid-template-rows:  50% 50%;
     }
-    
+    #imageForBlog{
+        padding: 5px;
+    }
 }
 
 /*---------------------------------------------------------- Funding --------------------------------------------*/
