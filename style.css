@@ -874,7 +874,8 @@ nav{
 @media screen and (max-width: 450px) {
     #blog{
         padding: 5px;
-        height: 550px;
+        grid-template-columns: 100%;  
+        grid-template-rows:  50%;
     }
     
 }
