@@ -1002,10 +1002,23 @@ nav{
 
 }
     #links{
+        /*
         justify-content: end;
         margin-right: 10px;
-        border: #060000 solid 1px;
+        border: #060000 solid 1px;*/
+        display: none;
 
+
+}#divLinks{
+    /*
+    display: flex;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    justify-content: end;
+    margin-right: 100px;*/
+    display: none;
 
 }
     
