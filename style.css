@@ -875,10 +875,10 @@ nav{
     #blog{
         padding: 5px;
         grid-template-columns: 100%;  
-        grid-template-rows:  50% 50%;
+        grid-template-rows:  75% 25%;
     }
     #imageForBlog{
-        padding: 5px;
+        padding: 15px;
     }
 }
 
@@ -980,6 +980,10 @@ nav{
     #imageLogoUni{
      display: none;   
 }
+    #divLinks{
+        display: none;   
 
+
+}
     
 }
