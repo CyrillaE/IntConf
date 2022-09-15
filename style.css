@@ -930,14 +930,18 @@ nav{
 
 #footer{
     background-color: #ffffff;
-    border-top: solid 1px #e9e3c9;
     padding-bottom: 25px; 
     padding-left: 5%;
     padding-top: 3%;
     display: grid;
     grid-template-columns: 30% 70%;  
     grid-template-rows:  80% 20%;
-    height: 100%;
+}
+
+#contactFooter{
+    padding-bottom: 25px; 
+    padding-left: 5%;
+    padding-top: 3%;
 }
 
 #logoUni{
@@ -975,50 +979,60 @@ nav{
 
 @media screen and (max-width: 450px) {
     #footer{
-    grid-template-columns: 100%; 
-    grid-template-rows: 50% 25% 25%;
-    padding-bottom: 0px; 
-    padding-left: 0%;
-    padding-top: 0%;
-    padding-left: 5px;
+        grid-template-columns: 100%; 
+        grid-template-rows: 25% 55% 20%;
+        padding-bottom: 0px; 
+        padding-left: 0%;
+        padding-top: 0%;
+        padding-left: 5px;
+        height: 550px;
     }
 
-    #imageLogoUni{
+    #contactFooter{
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 2;
         grid-row-end: 3;
     }
 
+    #imageLogoUni{
+        display: flex;
+        justify-content: center;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
     #logoUni{
-        width: 160px;
+        width: 360px;
         height: auto;  
-        float: none;
-        margin-top: 5%;
-        display: block;
-        margin: auto;
-        margin-right: 5px;
-        border: #060000 solid 1px;
+        position: absolute;
+        align-items: center;
+        float: left;
+        clear: none;
+        margin-top: 0%;
+        margin-right: 0px;
 
 }
-    #links{
-        /*
+    #divLinks{
+        display: flex;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
         justify-content: end;
+        margin-right: 0px;
+        justify-content: space-around;
+
+
+}
+    .links{
         margin-right: 10px;
-        border: #060000 solid 1px;*/
-        display: none;
-
-
-}#divLinks{
-    /*
-    display: flex;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    justify-content: end;
-    margin-right: 100px;*/
-    display: none;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
 
 }
     
