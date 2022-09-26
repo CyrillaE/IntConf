@@ -8,6 +8,17 @@
     height: 100%;
     width: 100%;
 }
+
+p{
+    font-size: 22px;
+    overflow-wrap: break-word;
+}
+
+@media screen and (max-width: 768px) {
+    p{
+        font-size: 17px;
+    }
+}
 /* -------------------First Frame ----------------------*/
 
 #divMain{
@@ -24,11 +35,45 @@
     opacity: 0.6;
 }
 
+/* ------------------- Text in Header ----------------------*/
+
+
 #MainTitle{
     color: white;
     font-size: 125px;
     margin-left: 12%;
     z-index: 2;
+}
+
+#dateConf{
+    color: rgb(212, 214, 248);
+    position: absolute;
+    white-space: nowrap;
+    font-size: 55px;
+    font-weight: bold;
+    margin-left: 18%;
+    margin-top: 1%;
+}
+
+#institute{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    white-space: nowrap;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 18%;
+    margin-top: 8%;
+}
+
+#cityName{
+    color: rgb(212, 214, 248);
+    position: absolute;
+    white-space: nowrap;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 18%;
+    margin-top: 20%;
+
 }
 
 #IntConf{
@@ -41,35 +86,12 @@
 }
 
 
-#dateConf{
-    color: rgb(212, 214, 248);
-    position: absolute;
-    white-space: nowrap;
-    font-size: 55px;
-    font-weight: bold;
+#headerLogo{
+    width: 260px;
+    height: auto;
+    position:absolute;
+    margin-top: 36%;
     margin-left: 18%;
-    margin-top: 0px;
-}
-
-#institute{
-    color: rgb(255, 255, 255);
-    position: absolute;
-    white-space: nowrap;
-    font-size: 50px;
-    font-weight: bold;
-    margin-left: 18%;
-    margin-top: 5%;
-}
-
-#cityName{
-    color: rgb(212, 214, 248);
-    position: absolute;
-    white-space: nowrap;
-    font-size: 40px;
-    font-weight: bold;
-    margin-left: 18%;
-    margin-top: 15%;
-
 }
 
 @media screen and (max-width: 768px) {
@@ -97,9 +119,16 @@
     margin-top: 10%;
     font-size: 30px;
 }
-#cityName{
+    #cityName{
     margin-left: 15%;
     margin-top: 20%;
+}
+    #headerLogo{
+    width: 140px;
+    height: auto;
+    position:absolute;
+    margin-top: 55%;
+    margin-left: 18%;
 }
 }
 @media screen and (max-width: 450px) {
@@ -377,15 +406,15 @@ nav{
 
 .titleTopic{
     font-weight: bold;
-    font-size: 23px;
-    color: black;
+    font-size: 30px;
+    color: rgb(32, 16, 113);
 }
 
 
 @media screen and (max-width: 450px) {
     .titleTopic{
         font-weight: bold;
-        font-size: 18px;
+        font-size: 25px;
     }
     
     .dateClass{
@@ -402,7 +431,7 @@ nav{
         padding-left: 12px;
         padding-right: 12px;
         display: grid;
-        grid-template-columns:60% 40%;
+        grid-template-columns:50% 50%;
         grid-template-rows: auto auto auto auto;
 
         }
@@ -588,7 +617,7 @@ nav{
     text-align: start;
     }
     #localHost{
-    height: 350px;
+    height: 450px;
     font-size: 20px;
     grid-template-columns: 1fr 1fr; 
     grid-template-rows: 25% 75%;
@@ -619,7 +648,14 @@ nav{
     background-color:#0A103A;
     color: white;
     font-size: 25px;
-}/* ---------------------------------------------------------- Paper Submission ----------------------------------------------*/
+}
+
+.speakers{
+    font-size: 45px;
+
+}
+
+/* ---------------------------------------------------------- Paper Submission ----------------------------------------------*/
 
 #paperSubmission{
     width: 100%;
