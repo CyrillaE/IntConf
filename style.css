@@ -184,6 +184,10 @@ p{
     padding-left: 10px;
 }
 
+.welcomeIntro{
+padding: 3%;
+}
+
 
 @media screen and (max-width: 450px) {
     .MainText{
