@@ -87,11 +87,11 @@ p{
 
 
 #headerLogo{
-    width: 260px;
+    width: 300px;
     height: auto;
     position:absolute;
-    margin-top: 36%;
-    margin-left: 18%;
+    margin-top: 1%;
+    margin-left: 78%;
 }
 
 @media screen and (max-width: 768px) {
@@ -157,6 +157,14 @@ p{
     margin-left: 14%;
     margin-top: 30%;
     font-size: 20px;
+}
+
+    #headerLogo{
+    width: 150px;
+    height: auto;
+    position:absolute;
+    margin-top: 56%;
+    margin-left: 14%;
 }
 }
 
