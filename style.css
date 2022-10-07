@@ -227,6 +227,15 @@ padding: 3%;
     margin-left: 90%;
 }
 
+@media screen and (max-width: 768px) {
+    #logoAboveMenu{
+        width: 20%;
+        height: auto;
+        position:relative;
+        margin-left: 80%;
+    }
+}
+
 nav{
     margin-bottom: 50px;
     text-align: center;
