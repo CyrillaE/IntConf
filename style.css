@@ -576,6 +576,11 @@ nav{
     color: #ffffff;
 }
 
+.cityOfTeaching{
+    color: #a9b8ff;
+    margin-bottom: 0px;
+}
+
 .titleSpeaker2{
       bottom: 3px;
       left: 16px;
@@ -651,12 +656,18 @@ nav{
         flex-direction: column;
         justify-content: space-between;
         width:100%;
-        height: 1500px;
+        height: 3690px;
     }
     .titrepourles{
         font-size: 18px;
         color: #ffffff;
-        margin-bottom: 29px;
+        margin-bottom: 12px;
+    }
+    .flip-card-front{
+        height: 700px;
+    }
+    .photoDevant{
+        height: 60%;
     }
     .sousTitreBio{
         font-size: 15px;
@@ -664,14 +675,22 @@ nav{
         color: #ffffff;
     }
     .flip-card{
-        width: 200px;
-        height: 580px;
+        width: 260px;
+        height: 590px;
         margin: auto;
         margin-bottom: 25px;
     }
     .textForBio{
         font-size: 12px;
     }
+    .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 1500px;
+   
+      }.titleSpeaker2{
+        height: 330px;
+      }
 }
 /* ---------------------------------------------------------------Committee----------------------------------------------*/
 #CommitteeMembers{
