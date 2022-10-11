@@ -676,7 +676,6 @@ nav{
     }
     .flip-card{
         width: 260px;
-        height: 590px;
         margin: auto;
         margin-bottom: 25px;
     }
@@ -688,8 +687,6 @@ nav{
         width: 100%;
         height: 1500px;
    
-      }.titleSpeaker2{
-        height: 330px;
       }
 }
 /* ---------------------------------------------------------------Committee----------------------------------------------*/
