@@ -94,6 +94,19 @@ p{
     margin-left: 74%;
 }
 
+#linkToTRI{
+    color: white;
+    text-decoration: none;
+    transform: scale(1);
+    transition: all .5s ease-in-out; 
+}
+
+#linkToTRI:hover{
+    transform: scale(1.9);
+    color: rgb(212, 214, 248);
+}
+
+
 @media screen and (max-width: 768px) {
     #divMain{
         height: 600px;
@@ -517,19 +530,150 @@ nav{
 }
 /* --------------------------------------------------------------- Invited Speakers ----------------------------------------------*/
 
+#invitedSpeakerTitle{
+    color: #0A103A;
+    width: 100%;
+    margin: auto;
+    background-color:#fdfdfdce;
+    padding-top: 20px;
+    padding-left: 30px;
+
+}
 #invitedSpeaker{
     width: 100%;
-    background-color:#0A103A;
+    height: 760px;
+    background-color:#fdfdfdce;
     color: white;
     font-size: 25px;
     padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 40px;
 }
 
-.speakers{
-    margin: auto;
+.speakersPicture{
+    height: 60%;
+    position: relative;
     text-align: center;
+    color: white;
 }
 
+.PictureOfSpeakers{
+    height: 100%;
+    width: 100%;
+}
+
+.titleSpeaker{
+    bottom: 0px;
+    background-color: #0c0226d3;
+    width: 100%;
+    height: 40%;
+}
+
+.titrepourles{
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.titleSpeaker2{
+      bottom: 3px;
+      left: 16px;
+    }
+
+.sousTitreBio{
+    font-size: 14px;
+    color: #ffffff;
+    padding: 5px;
+}
+.flip-card {
+    height: 700px;
+    background-color: transparent;
+    perspective: 1000px;
+    width: 18%;
+  }
+
+  .photoDevant{
+    width: 100%;
+    height: 60%;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 530px;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 650px;
+
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #0A103A;
+    color: white;
+    transform: rotateY(180deg);
+    height: 700px;
+  }
+
+  .flipBackNameSpeaker{
+    font-size: 23px;
+    color: #a9b8ff;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+  }
+.textForBio{
+    font-size: 15px;
+}
+
+@media screen and (max-width: 450px){
+    .flip-card{
+        flex-wrap: wrap;
+    }
+    #invitedSpeaker{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width:100%;
+        height: 1500px;
+    }
+    .titrepourles{
+        font-size: 18px;
+        color: #ffffff;
+        margin-bottom: 29px;
+    }
+    .sousTitreBio{
+        font-size: 15px;
+        margin-top: 10px;
+        color: #ffffff;
+    }
+    .flip-card{
+        width: 200px;
+        height: 580px;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+    .textForBio{
+        font-size: 12px;
+    }
+}
 /* ---------------------------------------------------------------Committee----------------------------------------------*/
 #CommitteeMembers{
     background-color:#0A103A;
@@ -689,6 +833,7 @@ nav{
 
 .speakers{
     font-size: 45px;
+    text-align: center;
 
 }
 
