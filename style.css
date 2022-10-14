@@ -1192,7 +1192,6 @@ nav{
 }
 
 #logoUni{
-    width: 360px;
     height: 145px;
     float: right;
     clear: right;
@@ -1249,10 +1248,10 @@ nav{
         grid-column-end: 2;
         grid-row-start: 1;
         grid-row-end: 2;
+        width: 250px;
     }
 
     #logoUni{
-        width: 360px;
         height: auto;  
         position: absolute;
         align-items: center;
