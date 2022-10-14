@@ -552,23 +552,32 @@ nav{
     margin-bottom: 40px;
 }
 
-.speakersPicture{
-    height: 60%;
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-.PictureOfSpeakers{
-    height: 100%;
+.flip-card-front, .flip-card-back {
+    position: absolute;
     width: 100%;
-}
+    height: 740px;
+
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #0A103A;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
 
 .titleSpeaker{
     bottom: 0px;
     background-color: #0c0226d3;
     width: 100%;
-    height: 40%;
+    height: 55%;
 }
 
 .titrepourles{
@@ -579,7 +588,7 @@ nav{
 .cityOfTeaching{
     color: #a9b8ff;
     margin-bottom: 0px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .titleSpeaker2{
@@ -601,13 +610,13 @@ nav{
 
   .photoDevant{
     width: 100%;
-    height: 60%;
+    height: 45%;
   }
   
   .flip-card-inner {
     position: relative;
     width: 100%;
-    height: 530px;
+    height: 740px;
     text-align: center;
     transition: transform 0.6s;
     transform-style: preserve-3d;
