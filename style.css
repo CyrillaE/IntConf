@@ -890,12 +890,6 @@ nav{
     margin-bottom: 30px;
 }
 
-/* ----------------------------------------------------   Paper Submission ----------------------------------------*/
-
-#paperSubmission{
-    margin-bottom: 30px;
-}
-
 /* ----------------------------------------------------   Venue and Accomodation ----------------------------------------*/
 
 #Logistics{
@@ -1283,3 +1277,40 @@ nav{
 }
     
 }
+
+/* Page Submission*/
+
+#paperSubmission{
+    padding: 50px;
+    background-color: #0a103a8e;
+}
+
+.sectionSub{
+    margin-bottom: 140px;
+    padding: 17px;
+    border: #a9b8ff solid 1px;
+    background-color: #0a103acc;
+}
+
+.guideline{
+    color: #a9b8ff;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.step{
+    color: #a9b8ff;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
