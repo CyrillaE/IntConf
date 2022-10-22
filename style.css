@@ -43,7 +43,14 @@ p{
     font-size: 125px;
     margin-left: 10%;
     z-index: 2;
+    text-decoration: none;
+    transition: all .6s ease-in-out;
 }
+
+#MainTitle:hover{
+    color: rgb(212, 214, 248);
+}
+
 
 #dateConf{
     color: rgb(212, 214, 248);
