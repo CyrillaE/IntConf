@@ -1170,7 +1170,8 @@ nav{
 /*---------------------------------------------------------- Footer --------------------------------------------*/
 
 #footer{
-    background-color: #ffffff;
+    background-color: #0a103ae4;
+    color: white;
     padding-bottom: 25px; 
     padding-left: 5%;
     padding-top: 3%;
@@ -1242,17 +1243,17 @@ nav{
         grid-column-end: 2;
         grid-row-start: 1;
         grid-row-end: 2;
-        width: 250px;
     }
 
     #logoUni{
+        width: 100px;
         height: auto;  
         position: absolute;
         align-items: center;
         float: left;
         clear: none;
-        margin-top: 0%;
-        margin-right: 0px;
+        margin-right: auto;
+
 
 }
     #divLinks{
