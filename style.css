@@ -267,8 +267,6 @@ nav{
     margin-bottom: 50px;
     text-align: center;
     background-color: #0A103A;
-    padding: 5px;
-    padding-top: 10px;
     height: 10vh;
     z-index: 4;
 
@@ -288,7 +286,7 @@ nav{
     display: inline;
     padding: 3px;
     font-size: 21px;
-    margin-bottom: 3px;
+    margin-bottom: 0px;
     list-style-type: none;
     color: #ffffff;   
  }
@@ -310,7 +308,7 @@ nav{
 
     nav{
         position: relative;
-        margin-bottom: 5px;
+        margin-bottom: 0px;
         height: 60px;
     }
 
@@ -1259,6 +1257,7 @@ nav{
     #logoUni{
         width: 100px;
         height: auto;  
+        margin-top: 10px;
         position: absolute;
         align-items: center;
         float: left;
