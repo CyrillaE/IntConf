@@ -105,7 +105,7 @@ p{
     display: inline-block;
     color: white;
     height: 20px;
-    width: 400px;
+    width: auto;
     text-decoration: none;
     transition: all .6s ease-in-out;
 
@@ -172,14 +172,14 @@ p{
 
 }
     #institute{
-    font-size: 22px;
+    font-size: 18px;
     margin-left: 14%;
     margin-top: 10%;
 }
     #cityName{
     margin-left: 14%;
     margin-top: 30%;
-    font-size: 20px;
+    font-size: 17px;
 }
 
     #headerLogo{
@@ -188,6 +188,10 @@ p{
     position:absolute;
     margin-top: 56%;
     margin-left: 14%;
+}
+    #linkToTRI{
+    font-size: 17px;
+
 }
 }
 
