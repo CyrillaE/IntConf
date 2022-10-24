@@ -1315,6 +1315,15 @@ nav{
     font-weight: bold;
 }
 
+@media screen and (max-width: 450px) {
+    .guideline{
+        font-size: 25px;
+    }
+    .step{
+        font-size: 25px;
+    }
+}
+
 
 
 
