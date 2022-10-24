@@ -267,7 +267,7 @@ nav{
     margin-bottom: 50px;
     text-align: center;
     background-color: #0A103A;
-    height: 10vh;
+    height: 9vh;
     z-index: 4;
 
 }
@@ -304,18 +304,19 @@ nav{
         height: 3px;
         background-color: white;
         margin: 5px;
+        margin-top: 7px;
+        margin-bottom: 0px;
     }
 
     nav{
         position: relative;
         margin-bottom: 0px;
-        height: 60px;
     }
 
 	.hamburger{
 		position: absolute;
         right: 5%;
-		top: 30%;
+		top: 40%;
 		cursor: pointer;
 		transform: translate(-5%,-50%);
 		z-index: 4;
