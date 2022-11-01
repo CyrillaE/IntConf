@@ -554,11 +554,12 @@ nav{
     background-color:#fdfdfdce;
     padding-top: 20px;
     padding-left: 30px;
-
 }
+
+
 #invitedSpeaker{
     width: 100%;
-    height: 740px;
+    height: 1100px; /* Etait 740px avant*/
     background-color:#fdfdfdce;
     color: white;
     font-size: 25px;
@@ -571,14 +572,16 @@ nav{
 .flip-card-front, .flip-card-back {
     position: absolute;
     width: 100%;
-    height: 740px;
+    height: 2000px; /* Etait 740px avant*/
 
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
   }
   
+  /* Not sure about that*/
   .flip-card-front {
-    background-color: #bbb;
+    background-color: #0c0226;
+    padding-bottom: 0px;
     color: black;
   }
   
@@ -593,7 +596,7 @@ nav{
     bottom: 0px;
     background-color: #0c0226d3;
     width: 100%;
-    height: 55%;
+    height: auto; /* Etait 55% avant*/
 }
 
 .titrepourles{
@@ -603,23 +606,52 @@ nav{
 
 .cityOfTeaching{
     color: #a9b8ff;
-    margin-bottom: 0px;
     font-size: 18px;
 }
 
 .titleSpeaker2{
       bottom: 3px;
       left: 16px;
-      height: 100%;
+      height: auto; /* Etait 100% avant*/
     }
 
 .sousTitreBio{
     font-size: 14px;
     color: #ffffff;
-    padding: 5px;
 }
+
+.overflowTest {
+    background:#0A103A;;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    height: 140px;
+    overflow: scroll;
+    border: 1px solid #ccc;
+    position: absolute;
+    bottom: 210px;
+  }
+
+.overflowTest2 {
+    background:white;
+    color: #0A103A;
+    padding: 15px;
+    width: 100%;
+    height: 185px;
+    overflow: scroll;
+    border: 1px solid #ccc;
+    position: absolute;
+    bottom: 0px;
+  }
+
+  .biography{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+
 .flip-card {
-    height: 700px;
+    height: auto; /* Etait 700px avant*/
     background-color: transparent;
     perspective: 1000px;
     width: 18%;
@@ -627,36 +659,31 @@ nav{
 
   .photoDevant{
     width: 100%;
-    height: 45%;
-  }
+    height: 35%; /* Etait 45% avant*/
+}
   
   .flip-card-inner {
     position: relative;
     width: 100%;
-    height: 740px;
+    height: 1000px; /* Weird behaviour*/
     text-align: center;
     transition: transform 0.6s;
     transform-style: preserve-3d;
   }
-  
+  /*
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
-  }
+  }*/
   
   .flip-card-front, .flip-card-back {
     position: absolute;
     width: 100%;
-    height: 720px;
+    height: 1000px; /* Etait 720px avant*/
 
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
   }
-  
-  .flip-card-front {
-    background-color: #bbb;
-    color: black;
-  }
-  
+
   .flip-card-back {
     background-color: #0A103A;
     color: white;
@@ -667,7 +694,6 @@ nav{
     font-size: 23px;
     color: #a9b8ff;
     padding-top: 10px;
-    padding-bottom: 20px;
 
   }
 .textForBio{
@@ -677,8 +703,8 @@ nav{
 @media screen and (max-width: 450px){
     .flip-card{
         flex-wrap: wrap;
-        margin-bottom: 200px;
-        width: 300px;
+        margin-bottom: 80px;
+        width: 320px;
         margin: auto;
     }
     #invitedSpeaker{
@@ -686,19 +712,20 @@ nav{
         flex-direction: column;
         justify-content: space-between;
         width:100%;
-        height: 3690px;
+        height: 4700px; /* Etait 3690px avant*/
     }
+
+  .flip-card-front {
+    width: 100%;
+    height: 800px; /* Etait 720px avant*/
+
+  }
     .titrepourles{
         font-size: 18px;
         color: #ffffff;
         margin-bottom: 12px;
     }
-    .flip-card-front{
-        height: 700px;
-    }
-    .photoDevant{
-        height: 60%;
-    }
+
     .sousTitreBio{
         font-size: 15px;
         margin-top: 10px;
@@ -707,11 +734,28 @@ nav{
     .textForBio{
         font-size: 12px;
     }
-    .flip-card-inner {
-        position: relative;
-        width: 100%;
-   
+    .overflowTest {
+        height: 130px;
+        bottom: 150px;
       }
+    
+    .overflowTest2 {
+        width: 100%;
+        height: 130px;
+        bottom: 0px;
+        color: #060000;
+      }
+      .flip-card-inner {
+      
+        height:700px; /* Weird behaviour*/
+      
+      }
+      .photoDevant{
+        width: 100%;
+        height: 370px; /* Etait 45% avant*/
+    }
+
+   
       
 }
 /* ---------------------------------------------------------------Committee----------------------------------------------*/
@@ -1197,7 +1241,7 @@ nav{
 }
 
 #logoUni{
-    height: 280px;
+    height: 200px;
     float: right;
     clear: right;
     position: relative;
