@@ -828,7 +828,28 @@ nav{
     padding: 20px;
 }
 
-
+.collapsible {
+    background-color: #121950;
+    color: white;
+    cursor: pointer;
+    padding: 28px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 22px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #373d71;
+  }
+  
+  .content {
+    padding: 15px 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
 
 
 
