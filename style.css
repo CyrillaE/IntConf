@@ -644,18 +644,23 @@ nav{
         height: 120px;
         width: auto;
         position: relative;
+        margin: auto;
         text-align: center;
     }
     .titrepourles{
         font-size: 23px;
         color: #ffffff;
-        padding-left: 10px;
+        margin: auto;
+        margin-top: 14px;
+        text-align: center;
     }
     .sousTitreBio{
         font-size: 17px;
     }
     .cityOfTeaching{
         font-size: 20px;
+        margin: auto;
+        text-align: center;
     }
     }
 
