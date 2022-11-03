@@ -547,19 +547,21 @@ nav{
 }
 /* --------------------------------------------------------------- Invited Speakers ----------------------------------------------*/
 
+
 #invitedSpeakerTitle{
     color: #0A103A;
     width: 100%;
     margin: auto;
+    height: 150px;
     background-color:#fdfdfdce;
     padding-top: 20px;
     padding-left: 30px;
 }
 
-
+/*
 #invitedSpeaker{
     width: 100%;
-    height: 1100px; /* Etait 740px avant*/
+    height: 1100px; 
     background-color:#fdfdfdce;
     color: white;
     font-size: 25px;
@@ -572,13 +574,13 @@ nav{
 .flip-card-front, .flip-card-back {
     position: absolute;
     width: 100%;
-    height: 2000px; /* Etait 740px avant*/
+    height: 2000px; 
 
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
   }
   
-  /* Not sure about that*/
+  /* Not sure about that*//*
   .flip-card-front {
     background-color: #0c0226;
     padding-bottom: 0px;
@@ -596,7 +598,7 @@ nav{
     bottom: 0px;
     background-color: #0c0226d3;
     width: 100%;
-    height: auto; /* Etait 55% avant*/
+    height: auto; 
 }
 
 .titrepourles{
@@ -612,7 +614,7 @@ nav{
 .titleSpeaker2{
       bottom: 3px;
       left: 16px;
-      height: auto; /* Etait 100% avant*/
+      height: auto; 
     }
 
 .sousTitreBio{
@@ -651,7 +653,7 @@ nav{
 
 
 .flip-card {
-    height: auto; /* Etait 700px avant*/
+    height: auto; 
     background-color: transparent;
     perspective: 1000px;
     width: 18%;
@@ -659,13 +661,13 @@ nav{
 
   .photoDevant{
     width: 100%;
-    height: 35%; /* Etait 45% avant*/
+    height: 35%;
 }
   
   .flip-card-inner {
     position: relative;
     width: 100%;
-    height: 1000px; /* Weird behaviour*/
+    height: 1000px; 
     text-align: center;
     transition: transform 0.6s;
     transform-style: preserve-3d;
@@ -673,12 +675,12 @@ nav{
   /*
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
-  }*/
+  }
   
   .flip-card-front, .flip-card-back {
     position: absolute;
     width: 100%;
-    height: 1000px; /* Etait 720px avant*/
+    height: 1000px; 
 
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -712,12 +714,12 @@ nav{
         flex-direction: column;
         justify-content: space-between;
         width:100%;
-        height: 4700px; /* Etait 3690px avant*/
+        height: 4700px;
     }
 
   .flip-card-front {
     width: 100%;
-    height: 800px; /* Etait 720px avant*/
+    height: 800px;
 
   }
     .titrepourles{
@@ -747,17 +749,89 @@ nav{
       }
       .flip-card-inner {
       
-        height:700px; /* Weird behaviour*/
+        height:700px; 
       
       }
       .photoDevant{
         width: 100%;
-        height: 370px; /* Etait 45% avant*/
-    }
-
-   
-      
+        height: 370px;
+    } 
 }
+
+*/
+
+#invitedSpeakerTitle{
+    color: #0A103A;
+    width: 100%;
+    margin: auto;
+    background-color:#fdfdfdce;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.flip-card{
+    background-color: #0c022682;
+    padding: 40px;
+    border:  solid #060000 1px;
+    margin-bottom: 30px;
+}
+
+.photoDevant{
+    display: block;
+    margin: auto;
+    width: auto;
+    padding-top: 10px;
+    height: 300px;
+    position: absolute;
+    right: 5%;
+}
+
+.titleSpeaker{
+    bottom: 0px;
+    background-color: #0c0226d3;
+    width: 100%;
+    height: auto; 
+}
+
+.titrepourles{
+    font-size: 48px;
+    color: #ffffff;
+}
+
+.cityOfTeaching{
+    color: #a9b8ff;
+    font-size: 28px;
+    padding: 20px;
+
+}
+
+.titleSpeaker2{
+    bottom: 3px;
+    left: 16px;
+    height: auto; 
+  }
+
+.sousTitreBio{
+  font-size: 20px;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.biography{
+    font-size: 25px;
+    font-weight: bold;
+    color: #a9b8ff;
+  }
+
+  .textForBio{
+    font-size: 25px;
+    padding: 20px;
+}
+
+
+
+
+
 /* ---------------------------------------------------------------Committee----------------------------------------------*/
 #CommitteeMembers{
     background-color:#0A103A;
