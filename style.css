@@ -646,6 +646,8 @@ nav{
         position: relative;
         margin: auto;
         text-align: center;
+        right: 0%;
+
     }
     .titrepourles{
         font-size: 23px;
