@@ -850,7 +850,62 @@ nav{
 /* ----------------------------------------------------   Registration ----------------------------------------*/
 
 #registration{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+table{
+    background-color: #0a103ac7;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+    border: white solid 1px;
+    margin-bottom: 20px;
+}
+
+th{
+    border: white solid 1px;
+
+}
+
+#textUnderTable{
+    background-color: #0a103ac7;
+    color: rgb(255, 255, 255);
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+}
+.expiredDates{
+    font-size: 20px;
+    padding: 10px;
+}
+
+#donwloadTheFormRegistration{
+    background-color:#0a103a;
+    display: block;
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+}
+
+#donwloadTheFormRegistration:hover{
+    color:  rgb(183, 186, 240);
+    text-decoration: none;
+   
+}
+
+@media screen and (max-width: 450px) {
+    table{
+        font-size: 10px;
+        margin: auto;
+    }.expiredDates{
+        font-size: 8px;
+        padding: 10px;
+    }#donwloadTheFormRegistration{
+        font-size: 30px;
+    }
 }
 
 /* ----------------------------------------------------   Venue and Accomodation ----------------------------------------*/
