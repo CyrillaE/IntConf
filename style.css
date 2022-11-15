@@ -1243,6 +1243,14 @@ th{
     transform: scale(1.3);
 }
 
+#emailFooter{
+    color: white;
+}
+#emailFooter:hover{
+    color: rgb(172, 178, 234);
+    text-decoration: none;
+}
+
 
 @media screen and (max-width: 450px) {
     #footer{
