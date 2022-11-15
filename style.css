@@ -896,6 +896,15 @@ th{
    
 }
 
+#RegistrationForm{
+    color: white;
+}
+
+#RegistrationForm:hover{
+    color: rgb(183, 186, 240);
+    text-decoration: none;
+}
+
 @media screen and (max-width: 450px) {
     table{
         font-size: 10px;
