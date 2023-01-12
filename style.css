@@ -377,6 +377,21 @@ nav{
         margin-bottom: 5%;
     }
 }
+/* -----------------------------------------------------Video EV---------------------------------------------------*/
+ #videoEV{
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+ }
+
+ @media screen and (max-width: 450px) {
+    #videoEV{
+        height: 360px;
+        width: 480px;
+     }
+}
+
+
 /* -----------------------------------------------------Important Dates---------------------------------------------------*/
 
 #importantDate{
