@@ -386,8 +386,8 @@ nav{
 
  @media screen and (max-width: 450px) {
     #videoEV{
-        height: 180px;
-        width: 240px;
+        height: 240px;
+        width: 300px;
      }
 }
 
