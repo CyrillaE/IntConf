@@ -414,6 +414,12 @@ nav{
     font-size: 27px;
 }
 
+.textBarre{
+    text-decoration:line-through;
+    font-size: 27px;
+
+}
+
 
 @media screen and (max-width: 450px) {
     #importantDate{
