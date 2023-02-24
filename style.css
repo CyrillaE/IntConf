@@ -1172,6 +1172,11 @@ th{
     padding-bottom: 30px;
 }
 
+.TextHotels{
+    margin: auto;
+    padding-left: 40px;
+}
+
 /*---------------------------------------------------------- Blog --------------------------------------------*/
 #blog{
     background-color: #ffffffca;
