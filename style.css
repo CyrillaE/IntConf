@@ -414,9 +414,23 @@ nav{
     font-size: 27px;
 }
 
-.textBarre{
-    text-decoration:line-through;
+.dateClassSpe{
+    display: inline-block;
     font-size: 27px;
+
+}
+
+.dateClass1{
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 27px;
+}
+
+.textBarre{
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 27px;
+    text-decoration:line-through;
 
 }
 
