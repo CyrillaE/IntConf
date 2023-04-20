@@ -347,8 +347,8 @@ nav{
 /* -----------------------------------------------------Programme---------------------------------------------------------*/
 
 #programmeShape{
-    width: 35%;
-    height: 300px;
+    width: 65%;
+    height: auto;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 5%;
@@ -357,13 +357,38 @@ nav{
 #programmeTitle{
     font-size: 50px;
     text-align: center;
+}
+
+
+#progPDF{
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 70%;
+    height: 750px;
+    margin-top: 120px;
+    margin-bottom: 180px;
+}
+
+#progPDF:hover{
+    transform: scale(1.4);
+    transition: 0.4s;
 
 }
 
+#pdfProgDownload{
+    margin: auto;
+    width: 20%;
+    background-color: rgb(252, 252, 252);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/*
 .textProgramme{
     text-align: center;
     font-size: 25px;
-}
+}*/
 
 
 @media screen and (max-width: 450px) {
@@ -790,13 +815,13 @@ nav{
 
  /* ---------------------------------------------------- Local Organisers ----------------------------------------*/
 
-#localHost{
+.localHost{
     background-color:#0A103A;
     color: white;
     width: 100%;
     height: 100%;
     opacity: 0.9;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     padding-top: 30px;
     display: grid;
     grid-template-columns: 33% 33% 33%; 
@@ -815,6 +840,10 @@ nav{
     padding-left: 40px;
     text-align: end;
 }
+
+.supportOrg{
+    font-size: 18px;
+}
 @media screen and (max-width: 450px) {
     #localOrg{
     font-size: 25px;
@@ -829,7 +858,7 @@ nav{
     font-size: 20px;
     grid-template-columns: 1fr 1fr; 
     grid-template-rows: 25% 75%;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     padding-top: 0px;
     padding-bottom: 15px;
     }
@@ -1188,6 +1217,9 @@ th{
     padding-top: 15px;
     padding-bottom: 15px;
     margin-bottom: 35px;
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
     display: grid;
     grid-template-columns: 50% 50%;  
     grid-template-rows:  100%;
