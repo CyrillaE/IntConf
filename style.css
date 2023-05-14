@@ -388,6 +388,14 @@ nav{
     text-align: center;
 }
 
+.Dinner{
+    color: #060000;
+    background-color: white;
+    font-size: 25px;
+    padding: 50px;
+    margin-top: 100px;
+}
+
 /*
 .textProgramme{
     text-align: center;
