@@ -1316,7 +1316,7 @@ th{
 .MainTextToDo{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 70px 290px 1fr 70px 1fr 290px 1fr;
+    grid-template-rows: 70px 70px 290px 1fr 70px 1fr 290px 1fr;
     background-color: white;
     width: 100%;
     opacity: 1;
@@ -1329,13 +1329,10 @@ th{
 }
 
 .MainTextToD{
-
     background-color: white;
-    width: 100%;
     opacity: 1;
     margin-bottom: 40px;
     z-index: 2;
-
 }
 
 #SaintAndrews, #Fife, #Roslin, #artGallery{
@@ -1343,7 +1340,7 @@ th{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    justify-self: center;
+    justify-self: stretch;
 }
 
 #SaintAndrews, #Fife, #DeanVillage{
@@ -1351,7 +1348,7 @@ th{
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    justify-self: center;
+    justify-self: stretch;
 
 }
 
@@ -1437,7 +1434,7 @@ th{
         padding-left: 0%;
         padding-top: 0%;
         padding-left: 5px;
-        height: 550px;
+        height: 650px;
     }
 
     #contactFooter{
