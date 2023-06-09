@@ -94,7 +94,7 @@ p{
 
 
 #headerLogo{
-    width: 380px;
+    width: 360px;
     height: auto;
     position:absolute;
     margin-top: 1%;
@@ -383,10 +383,7 @@ nav{
     text-align: center;
     margin-bottom: 30px;
 }
-#draftprog{
-    font-size: 25px;
-    text-align: center;
-}
+
 
 .Dinner{
     color: #060000;
@@ -1312,6 +1309,59 @@ th{
         margin-bottom: 10px;
     }
     
+}
+
+/*---------------------------------------------------- Things to do --------------------------------------------*/
+
+.MainTextToDo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 70px 290px 1fr 70px 1fr 290px 1fr;
+    background-color: white;
+    width: 100%;
+    opacity: 1;
+    margin-bottom: 40px;
+    z-index: 2;
+    padding-right: 100px;
+    padding-left: 100px;
+
+
+}
+
+.MainTextToD{
+
+    background-color: white;
+    width: 100%;
+    opacity: 1;
+    margin-bottom: 40px;
+    z-index: 2;
+
+}
+
+#SaintAndrews, #Fife, #Roslin, #artGallery{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    justify-self: center;
+}
+
+#SaintAndrews, #Fife, #DeanVillage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    justify-self: center;
+
+}
+
+.titleForThingsToDo{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 10px;
+    height: 50px;
 }
 
 
