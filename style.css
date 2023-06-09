@@ -1467,7 +1467,6 @@ th{
 }
     #divLinks{
         display: flex;
-        justify-content: end;
         margin-right: 0px;
         justify-content: space-around;
 
