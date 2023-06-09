@@ -1467,10 +1467,6 @@ th{
 }
     #divLinks{
         display: flex;
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 3;
-        grid-row-end: 4;
         justify-content: end;
         margin-right: 0px;
         justify-content: space-around;
