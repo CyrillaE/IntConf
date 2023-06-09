@@ -333,6 +333,10 @@ nav{
     -webkit-clip-path:circle(100px at 90% -10%);
     transition: all 1s ease-out;
 }
+
+ul.nav-links.nav-links.open {
+    padding-left: 0px;
+}
  }
     .nav-links.open{
     clip-path: circle(1000px at 90% -10%);
