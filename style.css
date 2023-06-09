@@ -1325,7 +1325,6 @@ th{
     padding-right: 100px;
     padding-left: 100px;
 
-
 }
 
 .MainTextToD{
@@ -1363,10 +1362,43 @@ th{
 
 
 @media screen and (max-width: 450px) {
-    #MainTextToDo{
-        display: inline;
+    .MainTextToDo{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 90px 50px 220px 200px 430px 230px 50px 150px 500px 130px 200px 330px ;
+        margin-bottom: 10px;
+        margin-left: 0px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    
     }
 
+    #SaintAndrews, #Fife, #DeanVillage, #Roslin, #artGallery{
+        display: block;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        margin-right: auto;
+        width: 80%;
+        align-self: center;
+    
+    }
+    .titleForThingsToDo{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        font-weight: bold;
+        font-size: 18px;
+        margin-left: 0px;
+    }
+    .TextThingTo{
+        display: block;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        padding: 0px;
+        justify-self: center;
+
+    }
+}
 /*---------------------------------------------------------- Footer --------------------------------------------*/
 
 #footer{
@@ -1434,7 +1466,7 @@ th{
 @media screen and (max-width: 450px) {
     #footer{
         grid-template-columns: 100%; 
-        grid-template-rows: 25% 55% 20%;
+        grid-template-rows: 1fr 2fr 1fr;
         padding-bottom: 0px; 
         padding-left: 0%;
         padding-top: 0%;
@@ -1447,6 +1479,7 @@ th{
         grid-column-end: 2;
         grid-row-start: 2;
         grid-row-end: 3;
+        
     }
 
     #imageLogoUni{
