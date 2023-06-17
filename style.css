@@ -271,6 +271,10 @@ nav{
     z-index: 4;
 
 }
+
+ul.nav-links{
+    padding-left: 2px;
+}
  .nav-links{
     display: flex;
     list-style: none;
@@ -443,6 +447,15 @@ ul.nav-links.nav-links.open {
     width: 100%;
     margin: auto;
     margin-bottom: 140px;
+}
+
+@media screen and (max-width: 450px) { 
+    #ETPText{
+    padding-left: 10px;
+    padding-right: 10px;
+    }#ETPLogo{
+    width: 80%;
+}
 }
 
 
@@ -1425,6 +1438,45 @@ th{
 
     }
 }
+
+/*---------------------------------------------------------- Book of Abstract ----------------------------------*/
+
+
+#BookOFAbstract{
+    background-color: white;
+    width: 60%;
+    text-align: center;
+    padding-top: 50px;
+    margin: auto;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#bookCampus{
+    width: 50%;
+    height: auto;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 450px) {
+    #BookOFAbstract{
+        width: 100%;
+        display: block;
+        padding-top: 10px;
+        margin-top: 50px;
+
+    }
+    #bookCampus{
+        width: 80%;
+        height: auto;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+}
+
     
 /*---------------------------------------------------------- Footer --------------------------------------------*/
 
