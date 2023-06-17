@@ -1451,7 +1451,8 @@ th{
     margin-bottom: 100px;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
+    padding-right: 10px;
 }
 
 #bookCampus{
@@ -1459,6 +1460,7 @@ th{
     height: auto;
     margin-bottom: 30px;
     margin-left: 30px;
+    margin-right: 20px;
 }
 
 @media screen and (max-width: 450px) {
