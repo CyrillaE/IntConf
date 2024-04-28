@@ -200,7 +200,7 @@ p{
 .MainText{
     background-color: white;
     width: 100%;
-    height: 1000px;
+    height: 1120px;
     opacity: 0.9;
     margin-bottom: 40px;
     z-index: 2;
@@ -220,6 +220,12 @@ p{
 
 .welcomeIntro{
 padding: 3%;
+}
+
+.welcomeIntroSecondIC{
+
+    font-size: 35px;
+    padding: 3%;
 }
 
 
